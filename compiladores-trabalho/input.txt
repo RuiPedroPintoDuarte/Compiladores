@@ -1,0 +1,28 @@
+int main() {
+    int num;
+    float real;
+    printf("Vou fazer um ciclo");
+    for (i=1;i<10;i=i+1){
+        printf(i);
+    }
+    int var = 1;
+    float x = 14.5;
+    
+    x = x * 50;
+
+    while(x >= var){
+        x = x - 10;
+    }
+
+    /* Isto e um comentario
+    de varias
+    linhas */
+
+    double aux1 = 5000;
+    if( aux1 != x) {
+        aux1 = x;
+    }
+    else {
+        aux1 = -2500;
+    }
+}
